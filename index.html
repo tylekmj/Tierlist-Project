@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"    
+    />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div class="container text-center text-primary-emphasis">
+     
+      
+      <div class="row">
+      <!-- The title  -->
+      <h1>
+       Random Foods TierList
+      </h1> 
+        
+        <!-- Rows to edit the tier lables and the containers next to them-->
+        <!-- contenteditable changes the tier lables into a textbox so the name can be edited -->
+        <div contenteditable="true" class="col-6 col-sm-1 container fw-bold text-center text-body p-3 m-0 tiers" id="Stier">S</div>
+        <div class="col-6 col-sm-10 container fw-bold text-center text-light p-3 m-0 bg-secondary border border-3 border-teritary dropContainer"></div>
+
+        <div class="w-100 d-none d-md-block"></div>
+
+        <div contenteditable="true" class="col-6 col-sm-1 container fw-bold text-center text-body p-3 m-0 tiers" id="Atier">A</div>
+        <div class="col-6 col-sm-10 container fw-bold text-center text-light p-3 m-0 bg-secondary border border-3 border-teritary dropContainer"></div>
+
+        <div class="w-100 d-none d-md-block"></div>
+
+        <div contenteditable="true" class="col-6 col-sm-1 container fw-bold text-center text-body p-3 m-0 tiers" id="Btier">B</div>
+        <div class="col-6 col-sm-10 container fw-bold text-center text-light p-3 m-0 bg-secondary border border-3 border-teritary dropContainer"></div>
+
+        <div class="w-100 d-none d-md-block"></div>
+
+        <div contenteditable="true" class="col-6 col-sm-1 container fw-bold text-center text-body p-3 m-0 tiers" id="Ctier">C</div>
+        <div class="col-6 col-sm-10 container fw-bold text-center text-light p-3 m-0 bg-secondary border border-3 border-teritary dropContainer"></div>
+
+        <div class="w-100 d-none d-md-block"></div>
+
+        <div contenteditable="true" class="col-6 col-sm-1 container fw-bold text-center text-body p-3 m-0 tiers" id="Dtier">D</div>
+        <div class="col-6 col-sm-10 container fw-bold text-center text-light p-3 m-0 bg-secondary border border-3 border-teritary dropContainer"></div>
+
+        <div class="w-100 d-none d-md-block"></div>
+
+        <div contenteditable="true" class="col-6 col-sm-1 container fw-bold text-center text-body p-3 m-0 tiers" id="Etier">E</div>
+        <div class="col-6 col-sm-10 container fw-bold text-center text-light p-3 m-0 bg-secondary border border-3 border-teritary dropContainer"></div>
+
+        <div class="w-100 d-none d-md-block"></div>
+        
+        <!-- A container for all the images that has yet ot be placed in a tier -->
+        <div class="col-11 container fw-bold text-center text-light p-5 m-3 bg-secondary border border-3 border-teritary imgContain">
+          <div class="dragImg">
+          <img src="https://www.allrecipes.com/thmb/bUpfgffZwkVjsMxgh8Ux1GDWUIA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2735695-a-southern-fried-chicken-Old-Lady-4x3-1-1505cc15dc6d45fcafc6f5cb97e62e56.jpg" class="img-fluid rounded images" alt="...">
+          </div>
+          
+          <div class="dragImg">
+          <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/10/14/0/FNK_SOUTHERN_STYLE_MAC_N_CHEESE_H_f_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1602697013202.webp" class="img-fluid rounded images" alt="...">
+          </div>
+          
+          <div class="dragImg" >
+          <img src="https://snaped.fns.usda.gov/sites/default/files/seasonal-produce/2018-05/watermelon.jpg" class="img-fluid rounded images" alt="...">
+          </div>
+          
+          <div class="dragImg">
+          <img src="https://m.media-amazon.com/images/I/81FclveUhoL.jpg" class="img-fluid rounded images" alt="...">
+          </div>
+          
+          <div class="dragImg">
+          <img src="https://theeburgerdude.com/wp-content/uploads/2022/09/9093e9_b8a318daa20d4625a0ebece979aae6ac_mv2-1.webp" class="img-fluid rounded images" alt="...">
+          </div>
+          
+          <div class="dragImg">
+          <img src="https://www.halfpasthungry.com/wp-content/uploads/2020/11/Collard-Greens.jpg" class="img-fluid rounded images" alt="...">
+          </div>
+          
+          <div class="dragImg">
+          <img height="20px" src="https://cdn.glitch.global/e4ba7c7f-0d73-48a9-83b5-cdb3ed3a720e/thumbnails%2Fcornbread-2sm-2.jpg?1732551564730" class="img-fluid rounded images" alt="...">
+          </div>
+          
+        </div>
+        
+        <input type="reset" value="Reset" class="resetType" />
+
+          
+        </div>
+      </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

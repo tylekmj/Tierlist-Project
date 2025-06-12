@@ -1,0 +1,58 @@
+
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: black;
+}
+
+/* images and videos max out at full width */
+img{
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+
+/* Bootstrap only has like 7 colors so the tier colors need to be edited manually with css for more colors*/
+#Stier {
+  background-color: red;
+}
+
+#Atier {
+  background-color: orange;
+}
+
+#Btier {
+  /* different shade of orange that i dont know the proper name of */
+  background-color: #fac131;
+}
+
+#Ctier {
+  background-color: yellow;
+}
+
+#Dtier {
+  /* different shade of green that i dont know the proper name of */
+  background-color: #a6f981;
+}
+
+#Etier {
+  /* also a different shade of green that i dont know the proper name of */
+  background-color: #3fec32;
+}
+
+
+/* For the title */
+h1 {
+  color: red;
+  background-color: blue;
+}
